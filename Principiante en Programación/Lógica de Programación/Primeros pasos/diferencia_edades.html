@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Calculo de la diferencia de edad</h1>
+    <br>
+</body>
+
+<script>
+
+    function saltarLinea() {
+
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function imprimir(frase) {
+
+        document.write(frase);
+        saltarLinea();
+
+    }
+
+    function diferenciaEdad(edad1, edad2) {
+        edad = edad1 - edad2;
+        return edad;
+    }
+
+    edad1 = 22;
+    edad2 = 25;
+    imprimir("Mi edad es " + edad1)
+    imprimir("La edad de mi amiga es " + edad2)
+    imprimir("Nuestra diferencia de edad es " + diferenciaEdad(edad1, edad2));
+</script>
+
+</html>
